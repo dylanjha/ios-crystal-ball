@@ -31,6 +31,7 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSLog(@"button pressed");
-    self.predictionLabel.text = [self.predictionArray objectAtIndex:1];
+    NSUInteger randomIndex = arc4random() % [self.predictionArray count];
+    self.predictionLabel.text = [self.predictionArray objectAtIndex:randomIndex];
 }
 @end
