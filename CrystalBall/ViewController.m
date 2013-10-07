@@ -14,11 +14,13 @@
 
 @implementation ViewController;
 @synthesize predictionLabel;
+@synthesize predictionArray;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.predictionArray = [[NSArray alloc] initWithObjects: @"Of course", @"It is so", @"No fucking way", @"if you're lucky", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,6 +31,6 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSLog(@"button pressed");
-    self.predictionLabel.text = @"Of course";
+    self.predictionLabel.text = [self.predictionArray objectAtIndex:1];
 }
 @end
