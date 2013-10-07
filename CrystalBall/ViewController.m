@@ -12,7 +12,8 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController;
+@synthesize predictionLabel;
 
 - (void)viewDidLoad
 {
@@ -28,6 +29,5 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSLog(@"button pressed");
-    self.predictionLabel.text = @"Definitely yes";
 }
 @end
