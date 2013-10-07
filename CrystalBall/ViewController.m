@@ -29,5 +29,6 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender {
     NSLog(@"button pressed");
+    self.predictionLabel.text = @"Of course";
 }
 @end
