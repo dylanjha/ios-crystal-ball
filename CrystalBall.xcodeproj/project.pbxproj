@@ -18,6 +18,8 @@
 		FC6A70EC17FA4F58000BC085 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6A70EB17FA4F58000BC085 /* Default-568h@2x.png */; };
 		FC6A70EF17FA4F58000BC085 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6A70ED17FA4F58000BC085 /* MainStoryboard.storyboard */; };
 		FC6A70F217FA4F58000BC085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A70F117FA4F58000BC085 /* ViewController.m */; };
+		FC8EEAB01803BB0600100919 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8EEAAE1803BB0600100919 /* background.png */; };
+		FC8EEAB11803BB0600100919 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8EEAAF1803BB0600100919 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FC6A70EE17FA4F58000BC085 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FC6A70F017FA4F58000BC085 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC6A70F117FA4F58000BC085 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC8EEAAE1803BB0600100919 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FC8EEAAF1803BB0600100919 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		FC6A70DB17FA4F58000BC085 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				FC8EEAA91803BA6600100919 /* images */,
 				FC6A70E417FA4F58000BC085 /* AppDelegate.h */,
 				FC6A70E517FA4F58000BC085 /* AppDelegate.m */,
 				FC6A70ED17FA4F58000BC085 /* MainStoryboard.storyboard */,
@@ -105,6 +110,15 @@
 				FC6A70EB17FA4F58000BC085 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC8EEAA91803BA6600100919 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC8EEAAE1803BB0600100919 /* background.png */,
+				FC8EEAAF1803BB0600100919 /* background@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6A70E017FA4F58000BC085 /* InfoPlist.strings in Resources */,
+				FC8EEAB01803BB0600100919 /* background.png in Resources */,
 				FC6A70E817FA4F58000BC085 /* Default.png in Resources */,
+				FC8EEAB11803BB0600100919 /* background@2x.png in Resources */,
 				FC6A70EA17FA4F58000BC085 /* Default@2x.png in Resources */,
 				FC6A70EC17FA4F58000BC085 /* Default-568h@2x.png in Resources */,
 				FC6A70EF17FA4F58000BC085 /* MainStoryboard.storyboard in Resources */,
@@ -298,6 +314,7 @@
 				FC6A70F717FA4F58000BC085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
